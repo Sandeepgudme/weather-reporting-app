@@ -1,3 +1,14 @@
+![Uploading Screenshot 2026-05-04 135936.png…]()
+
+
+
+
+
+
+
+
+
+
 Weather Application
 
 A simple web-based weather application that displays current weather conditions and forecasts for up to 2 days ahead.
