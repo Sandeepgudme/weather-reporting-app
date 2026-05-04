@@ -1,16 +1,6 @@
-## Preview
+Try the App now - https://sandeepgudme.github.io/weather-reporting-app/
 
 <img width="382" height="580" alt="Screenshot 7778" src="https://github.com/user-attachments/assets/53761743-80b4-4206-8340-045540b55ea9" />
-png)
-
-
-
-
-
-
-
-
-
 
 Weather Application
 
