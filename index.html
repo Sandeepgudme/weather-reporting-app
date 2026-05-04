@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-black text-white min-h-screen flex items-center justify-center">
+    <div class="container mx-auto p-4 max-w-md">
+        <div class="mb-6">
+            <h1 class="text-4xl font-bold mb-2"><span class="text-blue-600">Weather</span> Dashboard</h1>
+            <p class="text-lg opacity-70">Search to get the weather details of any city, Right Now !!</p>
+        </div>
+        <div class="flex gap-4 mb-6">
+            <input id="cityInput" class="w-full px-4 py-2 rounded-lg bg-gray-200 focus:bg-white text-black focus:outline-none" type="text" placeholder="Enter your city">
+            <button id="searchBtn" class="px-4 py-2 bg-blue-600 hover:bg-blue-900 font-bold text-white rounded-lg">Search</button>
+            <button id="locationBtn" class="px-4 py-2 bg-blue-600 hover:bg-blue-900 text-white font-bold rounded-lg">Search by Location</button>
+        </div>
+        
+        <div id="outputCard" class="hidden mt-6 p-4 bg-blue-800 rounded-lg">
+            <div class="flex items-center justify-between mb-4">
+                <p id="city-name" class="text-xl"></p>
+                <p id="countryName" class="px-2 py-1 bg-yellow-400 rounded-full text-sm"></p>
+            </div>
+            <div class="flex items-end mb-4">
+                <p id="temp" class="text-7xl mr-2"></p>
+                <sup id="sup" class="text-3xl"></sup>
+            </div>
+            <p id="loc-time" class="italic text-base opacity-80"></p>
+        </div>
+
+
+        <div id="forecastCard" class="hidden mt-6 p-4 bg-blue-800 rounded-lg">
+            <h2 class="text-xl font-bold mb-4">Forecast</h2>
+            <div id="forecastList" class="flex flex-row gap-4 overflow-x-auto"></div>
+        </div>
+        
+    </div>
+</body>
+<script src="app.js"></script>
+</html>
